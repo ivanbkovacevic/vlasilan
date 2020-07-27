@@ -1,0 +1,72 @@
+.forma-wraper{
+   
+    padding: 100px 200px;
+    background: $white-bcg;
+    h2{
+        color: $dark-green;
+        text-transform: uppercase;
+        font-size: 3rem;
+        text-align: center;
+    }
+    h3{
+        color: $dark-green;
+      
+        font-size: 2rem;
+        text-align: center;
+        margin-top: 30px;
+    }
+    .forma{
+        background: white;
+        padding: 50px 50px;
+      
+        input[type='radio']{
+            width: 30px;
+            height: 30px;
+        }
+
+        .kocha-input{
+            margin: 10px;
+            border:1px solid $dark-green;
+            height: 40px;
+          font-size: 2rem;
+
+            
+        }
+        .w-full{
+            display: block;
+            width: 100%;
+
+        }
+        
+        .btn-container{
+            text-align: center;
+            margin: 50px 0px;
+            .no-radius{
+                border-radius: 0 !important;
+                font-size: 1.5rem;
+    
+            }
+            .no-radius::before{
+                content:''
+            }
+            .no-radius::after{
+                content:''
+            }
+        }
+
+        .contact-details{
+            text-align: center;
+            p{
+                color: $dark-green;
+                font-size: 2rem;
+                text-align: center;
+            }
+            img{
+                margin: 20px 0;
+            }
+        }
+    }
+
+
+    
+}

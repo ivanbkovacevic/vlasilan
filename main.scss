@@ -2,15 +2,20 @@
 @import './scss/basics';
 @import './scss/footer';
 @import './scss/sta-je-vasilan';
+@import './scss/za-koga-vasilan';
+@import './scss/kako-se-koristi';
 @import './scss/formula-a';
 @import './scss/formula-b';
 @import './scss/hero';
+@import './scss/forma';
 
 
 ///////////////////////////////////////////////
 
 nav{
-  
+  &-link{
+      color: white/1.5 !important;
+  }
     .nav-item{
         text-transform: uppercase;
         font-weight: bold;
@@ -28,12 +33,27 @@ nav{
 
 .navbar{   
     padding: 30px 10px;
-    background: rgba(0, 0, 0, 0.26);
-
+    background: rgba(0, 0, 0, 0.26); 
+    @media (max-width: 991.98px) { 
+        padding: 0px 10px;
     }
+    ul{
+        padding-top: 20px;
+    }
+    &-toggler{
+        position: absolute;
+        left: 45%;
+        top: 100%;
+    }
+
+   
+    }
+
+
 
     .main-1{
         padding: 50px 100px;
+        background: $white-bcg;
     }
 
     .btn-naruci-red{
@@ -68,9 +88,28 @@ nav{
            }
  
        }
+
        .btn-naruci-red:hover{
            background: transparent;
            border: 2px solid $dark-green;
            text-shadow:-2px -1px $gray-text;
        }
+
+       .special-container{
+        width: 100%;
+        height: 6px;
+        border-top: 2px solid $gray-dark;
+        border-bottom: 2px solid $gray-dark;
+        text-align: center;
+        margin-bottom: 100px;
+  
+      .icon{
+          display: inline-block;
+          font-size: 7rem;
+          color: $dark-green;
+          margin-top: -50px;
+          background: $white-bcg;
+          width: 200px;
+      }
+    }
 

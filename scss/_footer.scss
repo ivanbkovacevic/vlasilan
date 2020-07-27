@@ -1,14 +1,25 @@
 .footer{
-    border: 2px solid green;
-    height: 50vh;
+  padding: 100px 0px;
     display: flex;
     justify-content: center;
+    background: $footer-bcg;
 
     .icons{
+        margin-bottom: 70px;
         .fab{
-            font-size: 5rem;
+            display: inline-block;
+            font-size: 6rem;
             color: $dark-green;
+            margin-right: 20px;
+            transition: all 0.3s;
         }
+        .fab:hover{
+            transform: translate(0, -20px);
+        }
+    }
+    .central{
+        text-align: center;
+        font-size: 1.5rem;
     }
    
 }

@@ -1,0 +1,34 @@
+.kako-se-koristi{
+    background-image: url('./images/kosa.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 400px;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 50px 250px;
+    text-transform: uppercase;
+  
+
+    h2{
+        color: white;
+        text-align: center;
+        font-weight: bold;
+        font-size: 3rem;
+    }
+    h3{
+        color: white;
+        text-align: center;
+        font-weight: bold;
+        font-size: 2rem;
+        margin-top: 30px;
+    }
+    p{
+        text-transform: lowercase;
+        font-size: 1.5rem;
+        margin-top: 50px;
+    }
+}

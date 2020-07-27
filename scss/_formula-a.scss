@@ -1,0 +1,44 @@
+.formula-a{
+    a {
+      color: black;
+    }
+
+  //  height: 800px;
+    width: 100%;
+    padding: 50px 100px;
+    background: $yellow;
+    // margin-top: 150px;
+
+    h2{
+        line-height: 30px;
+        margin-bottom: 30px;
+    }
+
+    p{
+        font-size: 2rem;
+    }
+
+    .btn-naruci-white{
+            height: 50px;
+            text-transform: uppercase;
+            transition: all 0.3s;
+            border-radius: 30px;
+            width: 250px;
+            cursor: pointer;
+            font-size: 1.5rem;
+            font-weight: bold;
+            border: 2px solid white;
+            background: white;
+            box-shadow: 0 0 3px  gray;
+    }
+
+    .btn-naruci-white:hover{
+        background: transparent;
+        border: 2px solid black;
+        text-shadow: 0 0 2px $gray-text;
+    }
+
+    &-picture{
+        padding-top: 100px;
+    }
+}

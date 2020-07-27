@@ -1,0 +1,14 @@
+.footer{
+    border: 2px solid green;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+
+    .icons{
+        .fab{
+            font-size: 5rem;
+            color: $dark-green;
+        }
+    }
+   
+}

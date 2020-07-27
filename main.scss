@@ -1,0 +1,76 @@
+@import './scss/variables';
+@import './scss/basics';
+@import './scss/footer';
+@import './scss/sta-je-vasilan';
+@import './scss/formula-a';
+@import './scss/formula-b';
+@import './scss/hero';
+
+
+///////////////////////////////////////////////
+
+nav{
+  
+    .nav-item{
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 1.5rem;
+        transition: all 0.3s;
+        margin-right: 30px;
+        border: 1px solid transparent;
+        color: white;
+    }
+
+    .nav-item:hover{
+        border: 1px solid white;
+    }
+}
+
+.navbar{   
+    padding: 30px 10px;
+    background: rgba(0, 0, 0, 0.26);
+
+    }
+
+    .main-1{
+        padding: 50px 100px;
+    }
+
+    .btn-naruci-red{
+        height: 50px;
+           text-transform: uppercase;
+           text-align: center;
+           transition: all 0.3s;
+           border-radius: 30px;
+           cursor: pointer;
+           font-size: 3rem;
+           font-weight: bold;
+           border: 3px solid white;
+           box-shadow: 0 0 3px  gray;
+           letter-spacing: 2px;
+           line-height: 2rem;
+           padding: 2px 10px;
+           color: white;
+           background: $red;
+         
+           &::before{
+             font-family: 'FontAwesome';
+             content: "\f0a9";
+             display: inline-block;
+             margin-right: 10px;
+           }
+ 
+           &::after{
+             font-family: 'FontAwesome';
+             content: '\f0a8';
+             display: inline-block;
+             margin-left: 10px;
+           }
+ 
+       }
+       .btn-naruci-red:hover{
+           background: transparent;
+           border: 2px solid $dark-green;
+           text-shadow:-2px -1px $gray-text;
+       }
+

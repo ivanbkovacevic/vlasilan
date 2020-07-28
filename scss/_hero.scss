@@ -32,7 +32,16 @@
     ul{
         font-size: 1.5rem;
         color: white;
-        margin-left: 100px;
+        margin-right: 200px;
+        list-style: none;
+
+
+       li::before{
+        font-family: 'FontAwesome';
+        content: "\f0a9";
+        display: inline-block;
+        margin-right: 10px;
+       }
     }
 }
 

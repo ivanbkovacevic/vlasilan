@@ -8,14 +8,23 @@
     background: $dark-green;
     color: white;
     margin-top: 100px;
+    @media (max-width: 991.98px) {
+        padding: 20px 30px;
+     }
+
 
     h2{
-        line-height: 30px;
-        margin-bottom: 30px;
+        line-height: 40px;
+        margin-bottom: 40px;
     }
 
     p{
-        font-size: 2rem;
+        font-size: 1.6rem;
+        line-height: 1.5;
+        margin-bottom: 1rem;
+        @media (max-width: 991.98px) {
+           text-align: center;
+         }
     }
 
     .btn-naruci-white{
@@ -31,6 +40,7 @@
             background: white;
             box-shadow: 0 0 3px  gray;
             color: $dark-green;
+            margin:50px 0px;
     }
 
     .btn-naruci-white:hover{

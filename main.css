@@ -192,6 +192,12 @@ body {
   text-transform: uppercase;
 }
 
+@media (max-width: 767.98px) {
+  .kako-se-koristi {
+    padding: 30px 50px;
+  }
+}
+
 .kako-se-koristi h2 {
   color: white;
   text-align: center;
